@@ -59,10 +59,10 @@ group :development do
   gem 'spring'
 end
 
-group :production do
-  gem 'rails_12factor'
-  gem 'pg'
-end
+# group :production do
+#   gem 'rails_12factor'
+#   gem 'pg'
+# end
 
 group :development do
     gem 'capistrano',         require: false
