@@ -2,7 +2,7 @@
 server '138.197.213.136', port: 80, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:mark172/mfbd_web1.git'
-set :application,     'mfbd-digital-ocean'
+set :application,     'mfbd'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
