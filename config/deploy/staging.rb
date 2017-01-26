@@ -22,6 +22,13 @@
 # role :db,  %w{deploy@example.com}
 
 
+role :app, %w{deploy@138.197.199.74}
+role :web, %w{deploy@138.197.199.74}
+role :db,  %w{deploy@138.197.199.74}, :primary => true
+set :branch, "master"
+set :rails_env, "staging"
+set :deploy_to, "/var/www/mfbd_staging"
+
 
 # Configuration
 # =============
