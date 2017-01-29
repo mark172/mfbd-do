@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.4.0"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -53,6 +53,7 @@ group :development, :test do
   gem 'capistrano', '~> 3.6'
   gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-passenger'
+  gem 'capistrano-rvm'
 end
 
 group :development do
